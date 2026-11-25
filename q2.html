@@ -8,7 +8,10 @@ a form tag. Apply css formatting to change the background of the the paragraphs 
 Change the non-silver space around your paragraph to have a left and bottom margin equal to the height of a default character.
 -->
     <style>
-        /* Put your css here */
+        #answer
+        {
+            background-color: silver;
+        }
     </style>
 </head>
 
@@ -17,7 +20,12 @@ Change the non-silver space around your paragraph to have a left and bottom marg
     <main>
         <h1>How the Action attribute works</h1>
         <h2>... in my own words</h2>
-        <p></p>
+        <p id=answer>
+            The responsibility of the action attribute of a form tag is to send data to the proper destination. For example, when a user is done 
+            filling out a form, as soon as they submit this information the action attribute holds an address which is where the data is then sent to. 
+            This is great for collecting lots of data from many users, more specifically this is a good way to collect unmoderated quantitative testing data.
+            Beacuse you get to decide where the data goes you can send it to a place that sorts this information or even summarizes it.
+        </p>
     </main>
 </body>
 
